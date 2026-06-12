@@ -1,0 +1,12 @@
+sudo apt install unzip build-essential libncurses-dev flex bison libdwarf-dev libelf-dev libdw-dev libssl-dev
+
+
+need to install gawk as well on linuxmint
+
+need to install dwarves and pahole to compile linux-5.15 on older
+linuxmint (21.3 virginia)
+
+./scripts/config --set-str SYSTEM_TRUSTED_KEYS ""
+./scripts/config --set-str SYSTEM_REVOCATION_KEYS ""
+
+
