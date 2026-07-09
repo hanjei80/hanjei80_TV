@@ -1,0 +1,4 @@
+native("../plugins/native_math.so", "c_add", "addc", "double", "double", "double");
+native("../plugins/native_math.so", "c_times_two", "timesTwo", "int", "int");
+print("addc(2.5, 4.25) =", addc(2.5, 4.25));
+print("timesTwo(21) =", timesTwo(21));

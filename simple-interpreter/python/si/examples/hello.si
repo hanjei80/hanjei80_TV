@@ -1,0 +1,16 @@
+let x = 5;
+let y = 7;
+print("sum =", x + y);
+
+func fib(n) {
+  if (n <= 1) return n;
+  return fib(n - 1) + fib(n - 2);
+}
+
+print("fib(10) =", fib(10));
+
+let i = 0;
+while (i < 3) {
+  print("loop", i);
+  i = i + 1;
+}
